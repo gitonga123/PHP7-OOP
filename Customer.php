@@ -1,4 +1,5 @@
 <?php
+namespace Bookstore\Domain;
 class Customer{
     private $id;
     private $firstname;

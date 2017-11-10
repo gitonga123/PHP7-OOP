@@ -7,11 +7,11 @@ A quick crash course of PHP 7 OOP
 
 3. Functions
 
-4. Classes
+4. Classes - Blueprint - Plan
 
-5. Namespaces
+5. Namespaces - Multiple classes with the same name 
 
-6. Inheriting
+6. Inheritance - Implementation of class from Parent to Children
 
 7. Encapsulation (_Information Hiding_)
 

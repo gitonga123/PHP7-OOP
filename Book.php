@@ -1,12 +1,11 @@
 <?php
+namespace Bookstore\Domain;
 
 class Book {
     private $isbn;
     private $author;
     private $title;
     private $available;
-
-
 
     public function __construct(
 

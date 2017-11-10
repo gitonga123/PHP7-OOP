@@ -1,5 +1,5 @@
 <?php
-namespace Bookstore\Domain;
+//namespace Bookstore\Domain;
 class Book{
 
     public function __construct(int $isbn, string $title, string $author,
