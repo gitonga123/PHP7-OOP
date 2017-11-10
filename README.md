@@ -13,3 +13,5 @@ A quick crash course of PHP 7 OOP
 
 6. Inheriting
 
+7. Encapsulation (_Information Hiding_)
+
