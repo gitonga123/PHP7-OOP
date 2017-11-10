@@ -1,5 +1,5 @@
 <?php
-function __autoload($classname)
+function autoloader($classname)
 {
     $lastSlash = strpos($classname, '\\') + 1;
     $classname = substr($classname, $lastSlash);
@@ -8,4 +8,6 @@ function __autoload($classname)
 
     require_once($filename);
 }
+
+spl_autoload_register('autoloader');
  ?>
