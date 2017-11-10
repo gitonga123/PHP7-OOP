@@ -11,7 +11,7 @@ A quick crash course of PHP 7 OOP
 
 5. Namespaces - Multiple classes with the same name 
 
-6. Inheritance - Implementation of class from Parent to Children
+6. Inheritance - Pass the Implementation of class from Parent to Children
 
 7. Encapsulation (_Information Hiding_)
 

@@ -1,9 +1,7 @@
 <?php
 namespace Bookstore\Domain;
-class Customer{
+class Customer extends Person {
     private $id;
-    private $firstname;
-    private $surname;
     private $email;
 
     private static $lastId = 0;
@@ -15,6 +13,7 @@ class Customer{
         string $email
     )
     {
+        parent::__construct($firstname,$surname);
         if ($id == null){
             $this->id = ++self::$lastId;
         }else{
@@ -43,21 +42,6 @@ class Customer{
         return $this->id;
     }
 
-    /**
-     * @return string
-     */
-    public function getSurname(): string
-    {
-        return $this->surname;
-    }
-
-    /**
-     * @return string
-     */
-    public function getFirstname(): string
-    {
-        return $this->firstname;
-    }
 
     /**
      * @param string $email
