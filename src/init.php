@@ -1,6 +1,7 @@
 <?php
-use Bookstore\Domain\Book\Book;
-use Bookstore\Domain\Customer\Customer;
+use Bookstore\Domain\Customer;
+use Bookstore\Domain\Book;
+
 
 //require_once __DIR__.'/Book.php';
 //require_once __DIR__.'/Customer.php';

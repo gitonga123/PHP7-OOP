@@ -1,6 +1,7 @@
 <?php
-namespace Bookstore\Domain\Book;
+namespace Bookstore\Domain;
 class Book{
+
     public function __construct(int $isbn, string $title, string $author,
                                 int $available = 0 ) {
         $this->isbn = $isbn;

@@ -1,6 +1,5 @@
 <?php
-namespace Bookstore\Domain\Customer;
-use Bookstore\Domain\Person;
+namespace Bookstore\Domain;
 
 class Customer extends Person {
     private $id;
