@@ -15,3 +15,5 @@ A quick crash course of PHP 7 OOP
 
 7. Encapsulation (_Information Hiding_)
 
+8. Autoloading Classes - Search and Load files automatically
+
